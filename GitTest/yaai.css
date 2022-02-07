@@ -3,7 +3,14 @@ h1
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+/* For marquee */
+marquee
+{
+    bgcolor:black;
+    scroll delay:10;
+    direction:right;
+}
+        
 
 
 /* For the Images */
