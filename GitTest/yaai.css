@@ -5,9 +5,13 @@ h1
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
 /* For the background color */
 
+<<<<<<< Updated upstream
+/* For the background color */
+
+=======
+>>>>>>> Stashed changes
 .btn
 {
     border: none;
@@ -62,10 +66,17 @@ img
 }
 
 /* Inverting the color */
+<<<<<<< Updated upstream
 /* #main
 {
     background-color: black;
 } */
+=======
+.Background
+{
+    background-color: black;
+}
+>>>>>>> Stashed changes
 
 /* h1
 {
