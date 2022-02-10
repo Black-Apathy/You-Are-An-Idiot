@@ -10,32 +10,50 @@
     <title>You are an Idiot</title>
 </head>
 
-<body id="main">
-
-    <center>
-        <h1>
-            You are an Idiot
-        </h1>
-    </center>
-
-    <div class="rows">
-        <div class="column">
-            <img src="smile.png" alt="Smile">
-        </div>
-        <div class="column">
-            <img src="smile.png" alt="Smile">
-        </div>
-        <div class="column">
-            <img src="smile.png" alt="Smile">
-        </div>
-    </div>
-
-
-    <footer>
+<body>
+    <div id="main">
         <center>
-            <audio controls autoplay="true" loop>
-                <source src="You are an idiot!!.mp3" type="audio/mpeg" Your browser does not support the audio tag
+            <h1>
+                You are an Idiot
+            </h1>
         </center>
+
+        <div class="box">
+            <center>
+                <input type="button" id="btn" value="Click me please!" onclick = "color()">
+            </input>
+            <script>
+                let btn = document.getElementById('btn');
+                function color()
+                {
+                    btn.value = 'You really are an idiot lol!'
+                    btn.style.background = '#ffff';
+                    btn.style.borderStyle = "groove";
+                    btn.style.fontSize = "25px"
+                }
+            </script>
+            </center>
+        </div>
+    
+        <div class="rows">
+            <div class="column">
+                <img src="smile.png" alt="Smile">
+            </div>
+            <div class="column">
+                <img src="smile.png" alt="Smile">
+            </div>
+            <div class="column">
+                <img src="smile.png" alt="Smile">
+            </div>
+        </div>
+    
+        </div>
+        <footer>
+            <center>
+                <audio id = "AudioPlayer" controls loop hidden autoplay>
+                    <source src="You are an idiot!!.mp3" type="audio/mp3" Your browser does not support the audio tag
+            </center>
+    </div>
 </body>
 
 </html>

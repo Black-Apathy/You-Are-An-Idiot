@@ -1,4 +1,4 @@
-/* Non-Inverted Color */
+
 /* For the Title */
 h1
 {
@@ -96,23 +96,20 @@ img
     
 }
 
-
-/* Inverting the color */
-/* #main
+/* For the button */
+#btn
 {
-    background-color: black;
-} */
-
-/* h1
-{
-    filter: invert(100%);
-}
-
-img
-{
+    outline: none;
+    border: none;
+    text-decoration: none;
     display: inline-block;
-    width: 20%;
-    height: 20%;
-    margin-top: 20%;
-    filter: invert(100%);
-} */
+    background-color: rgb(255, 62, 62);
+    padding: 2% 2%;
+    margin-top: 15%;
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-size: medium;
+    cursor: pointer;
+}
